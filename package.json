@@ -1,0 +1,14 @@
+{
+  "name": "fontend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html ./productos.html ./servicios.html",
+    "dev": "parcel serve ./index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.10.0",
+    "sweetalert2": "^11.7.32"
+  }
+}
